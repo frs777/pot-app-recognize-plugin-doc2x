@@ -1,15 +1,11 @@
 {
-  "id": "plugin.com.pot-app.doc2x.v2",
+  "id": "plugin.com.pot-app.doc2x",
   "plugin_type": "recognize",
   "icon": "icon.png",
-  "display": "Doc2X V2 图片识别",
-  "homepage": "https://github.com/konbakuyomu/pot-app-recognize-plugin-doc2x", 
+  "display": "Doc2X OCR",
+  "homepage": "https://github.com/pot-app/pot-app-recognize-plugin-doc2x",
   "needs": [
-    {
-      "key": "apikey",
-      "display": "Doc2X API Key (sk-xxx)", 
-      "type": "input"
-    },
+    { "key": "token", "display": "Doc2X API Token", "type": "input" },
     {
       "key": "mathFormat",
       "display": "数学公式格式",
@@ -30,6 +26,21 @@
     }
   ],
   "language": {
-    "auto": "auto"
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "th": "th",
+    "ar": "ar"
   }
 }
