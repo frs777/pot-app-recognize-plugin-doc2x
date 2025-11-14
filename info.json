@@ -9,6 +9,24 @@
       "key": "apikey",
       "display": "Doc2X API Key (sk-xxx)", 
       "type": "input"
+    },
+    {
+      "key": "mathFormat",
+      "display": "数学公式格式",
+      "type": "select",
+      "options": {
+        "latex": "LaTeX 标准格式 \\(...\\)",
+        "obsidian": "Obsidian 格式 $...$"
+      }
+    },
+    {
+      "key": "showDebug",
+      "display": "调试模式",
+      "type": "select",
+      "options": {
+        "false": "关闭",
+        "true": "开启 (显示完整 API 响应)"
+      }
     }
   ],
   "language": {
