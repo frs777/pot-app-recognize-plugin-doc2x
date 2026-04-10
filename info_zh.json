@@ -2,13 +2,13 @@
   "id": "plugin.com.pot-app.doc2x",
   "plugin_type": "recognize",
   "icon": "icon.png",
-  "display": "Doc2X OCR - Rozpoznawanie",
+  "display": "Doc2X OCR",
   "homepage": "https://github.com/pot-app/pot-app-recognize-plugin-doc2x",
   "needs": [
-    { "key": "token", "display": "Doc2X API Token - Rozpoznawanie", "type": "input" },
+    { "key": "token", "display": "Doc2X API Token", "type": "input" },
     {
       "key": "mathFormat",
-      "display": "数学公式格式 - Rozpoznawanie",
+      "display": "数学公式格式",
       "type": "select",
       "options": {
         "latex": "LaTeX 标准格式 \\(...\\)",
@@ -17,7 +17,7 @@
     },
     {
       "key": "showDebug",
-      "display": "调试模式 - Rozpoznawanie",
+      "display": "调试模式",
       "type": "select",
       "options": {
         "false": "关闭",
